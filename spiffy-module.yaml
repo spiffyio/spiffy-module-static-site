@@ -1,0 +1,5 @@
+version: "1.0"
+
+expose:
+  - container_name: spiffy-static-site-1
+    port: 80

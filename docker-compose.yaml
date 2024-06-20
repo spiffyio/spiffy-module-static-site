@@ -1,0 +1,14 @@
+version: '3.8'
+
+networks:
+  spiffy-network:
+    external: true
+
+services:
+  spiffy-static-site:
+    container_name: ${CONTAINER_NAME:-spiffy-static-site}
+    image: nginx:alpine
+    volumes:
+      - ${MODULE_ROOT:-.}/public:/usr/share/nginx/html
+    networks:
+      - spiffy-network

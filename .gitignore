@@ -1,0 +1,35 @@
+# Ignore node_modules directory if using Node.js
+node_modules/
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore dependency directories
+bower_components/
+jspm_packages/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore compiled Sass/CSS files
+*.sass-cache/
+*.scss-cache/
+*.css.map
+
+# Ignore directories for temporary files and caches
+.temp/
+.cache/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
