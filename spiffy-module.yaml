@@ -1,5 +1,8 @@
 version: "1.0"
+module_name: static-site
+module_type: route
 
-expose:
-  container_name: spiffy-static-site-1
-  port: 80
+route_config:
+  expose:
+    container_name: spiffy-static-site-1
+    port: 80
