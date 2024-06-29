@@ -1,6 +1,8 @@
 version: "1.0"
 module_name: static-site
 module_type: route
+dependencies:
+  - module_type: auth
 
 route_config:
   expose:
